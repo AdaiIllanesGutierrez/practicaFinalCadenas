@@ -7,5 +7,9 @@ const div = document.querySelector("#resultado-div");
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   const frase = palabra.value;
-  div.innerHTML = JSON.stringify(ocurrencias(frase));
+  if (frase===""){
+    alert("no se puede ingresar texto vacio");
+    return;
+  }else{
+     div.innerHTML = JSON.stringify(ocurrencias(frase));}
 });
