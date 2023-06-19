@@ -1,7 +1,7 @@
 function ocurrencias(frase) {
     frase = frase.toLowerCase();
     // Definir los caracteres de separación entre palabras
-    const separadores = /[.,;\- ]+/;
+    const separadores = /[., ;]+/;
     // Dividir la frase en palabras utilizando los separadores
     const palabras = frase.split(separadores);
   
