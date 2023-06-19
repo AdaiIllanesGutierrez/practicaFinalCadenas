@@ -10,7 +10,7 @@ describe("Contar Palabras", () => {
   it("deberia recibir una Frase con palabras separadas por punto", () => {
     expect(ocurrencias("tu.hola")).toEqual({ tu: 1,hola:1 });
   });
-  it("deberia recibir una Frase con palabras separadas por espacios", () => {
+  it("deberia recibir una frase con palabras separadas por espacios", () => {
     expect(ocurrencias("tu hola")).toEqual({ tu: 1,hola:1 });
   });
   it("deberia recibir una Frase con palabras separadas por punto y coma", () => {

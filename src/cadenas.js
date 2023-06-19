@@ -4,10 +4,8 @@ function ocurrencias(frase) {
     const separadores = /[., ;]+/;
     // Dividir la frase en palabras utilizando los separadores
     const palabras = frase.split(separadores);
-  
     // Crear un objeto para almacenar el conteo de ocurrencias
     const conteo = {};
-  
     // Recorrer todas las palabras y realizar el conteo
     palabras.forEach(palabra => {
       // Ignorar las palabras vacías
@@ -20,7 +18,6 @@ function ocurrencias(frase) {
         }
       }
     });
-  
     // Retornar el objeto con el conteo de ocurrencias
     return conteo;
   }
