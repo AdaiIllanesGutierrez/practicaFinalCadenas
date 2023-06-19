@@ -1,7 +1,7 @@
-import {sumar}from "./cadenas.js";
+import {ocurrencias}from "./cadenas.js";
 
-describe("Sumar", () => {
-  it("deberia sumar dos numeros", () => {
-    expect(sumar(3, 2)).toEqual(5);
+describe("Contar Palabras", () => {
+  it("deberia recibir una palabra y devolver 1", () => {
+    expect(ocurrencias("tu")).toEqual(1);
   });
 });

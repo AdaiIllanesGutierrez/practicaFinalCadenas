@@ -1,6 +1,7 @@
-function sumar(a, b) {
-    return a + b;
-  }
+function ocurrencias(frase) {
+    return 1;
   
-  module.exports = {sumar};
+}
+  
+  module.exports = {ocurrencias};
   
